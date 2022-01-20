@@ -1,4 +1,4 @@
-export const people = [ {
+export const people = [{
     id: 1,
     name: 'Yovana',
     age: 25, 
@@ -10,14 +10,14 @@ export const people = [ {
     name: 'Andy',
     age: 29, 
     bio:'Andy is a gamer who enjoys... ',
-    hobbies: [ 'biking','pool', 'magic'],
+    hobbies: ['biking','pool', 'magic'],
 },
 {
     id: 3,
     name: 'Bob',
     age: 40, 
     bio:'Bob is a musician who loves reggae and music festivals',
-    hobbies: [ 'smoking','dancing', 'vibing'],
+    hobbies: ['smoking','dancing', 'vibing'],
 },
 {
     id: 4,
