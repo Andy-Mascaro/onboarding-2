@@ -3,7 +3,7 @@ export const people = [{
     name: 'Yovana',
     age: 25, 
     bio:'Yovana is an artist',
-    hobbies: [ 'paddle boarding','glamping', 'painting'],
+    hobbies: [ "'paddle boarding','glamping'", 'painting'],
 },
 {
     id: 2,
