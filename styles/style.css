@@ -86,3 +86,82 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+div{
+    border: green 4px dotted;
+}
+.name{
+    font-size: medium;
+    font-weight: bold;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.age{
+    font-size: medium;
+    font-weight: bold;
+    margin: 30px;
+    padding: 30px;
+}
+.bio {
+    font-size: medium;
+    font-weight: bold;
+    margin: 30px;
+    padding: 30px;
+}
+/* Person styling below */
+.Yovana{
+        border:green 4px dashed;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: greenyellow;
+        color: red;
+        margin: 30px;
+        padding: 30px;
+}
+/* added style to all of yovanas hobbies */
+.Yovana .hobbies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+.Yovana li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+.Andy .hobbies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+.Andy li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+.Mary .hobbies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+.Mary li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
