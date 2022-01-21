@@ -33,7 +33,16 @@ function renderPerson(index) {
     // use user input to update state 
     // update DOM to reflect the new state
 selectEl.addEventListener('change', (e) => {
-    console.log('user click');
+    hobbiesEl.innerHTML = ' ';
+    container.classList.remove('Yovana', 'Andy', 'Bob', 'Mary');
+    const selected = e.target.value;
+    if (selected === 'one') {
+        renderPerson(1);
+    } else if (selected === 'two') {
+        renderPerson(2);
+    }
 });
+    //*console.log('user click');
+
 
 
