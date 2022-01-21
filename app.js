@@ -4,19 +4,33 @@ import { people } from './data.js';
 // console.log(people, 'people');
 
 // grab DOM elements
-const selectEl = document.getElementById('name');
-const nameEl = document.querySelector('.name');
-const ageEl = document.querySelector('.age');
-const bioEl = document.querySelector('.bio');
-const hobbiesEl = document.querySelector('.hobbies');
-const container = document.querySelector('.profile');
+const selectEl = document.querySelector('#name');
+const nameEl = document.querySelector('h5');
+const ageEl = document.querySelector('p');
+const bioEl = document.querySelector('span');
+const hobbiesEl = document.querySelector('ul');
+const contain = document.querySelector('div');
 // console.log(selectEl);
 
 // console.log('Elements', selectEl, nameEl, ageEl, bioEl, hobbiesEl, container);
 
+selectEl.addEventListener('change', (e) => {
+    hobbiesEl.innerHTML = ' ';
+    contain.classList.remove('Yovana', 'Andy', 'Bob', 'Mary');
+    const selected = e.target.value;
+    if (selected === 'one') {
+        renderPerson(0);
+     if (selected === 'two') {
+        renderPerson(1);
+    } if (selected === 'three') {
+        renderPerson(2);
+    } if (selected === 'four') {
+        renderPerson(3);
+    }
+
 function renderPerson(index) {
-    container.classList.add(`${people[index].name}`);
-    nameEl.textContent = 'Name:' + people[index].name;
+    contain.classList.add(`${people[index].name}`);
+    nameEl.textContent = 'name:' + people[index].name;
     ageEl.textContent = 'age' + people[index].age;
     bioEl.textContent = 'bio' + people[index].bio;
 
@@ -26,23 +40,3 @@ function renderPerson(index) {
         hobbiesEl.appendChild(li);
     }
 }
-
-
-// set event listeners 
-    // get user input
-    // use user input to update state 
-    // update DOM to reflect the new state
-selectEl.addEventListener('change', (e) => {
-    hobbiesEl.innerHTML = ' ';
-    container.classList.remove('Yovana', 'Andy', 'Bob', 'Mary');
-    const selected = e.target.value;
-    if (selected === 'one') {
-        renderPerson(1);
-    } else if (selected === 'two') {
-        renderPerson(2);
-    }
-});
-    //*console.log('user click');
-
-
-
