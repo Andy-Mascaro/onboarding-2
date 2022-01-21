@@ -4,7 +4,6 @@ import { people } from './data.js';
 console.log(people, 'people');
 
 // grab DOM elements
-const conatiner = document.querySelector('conatiner')
 const nameEl = document.querySelector('.name');
 const ageE1 = document.querySelector('.age');
 const bioE1 = document.querySelector('.bio');
