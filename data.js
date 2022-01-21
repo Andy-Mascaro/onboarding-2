@@ -10,7 +10,7 @@ export const people = [
         id: 2,
         name: 'Andy',
         age: 29, 
-        bio:'Andy is a gamer who enjoys... ',
+        bio:'Andy is a father who enjoys quality time with his wife and kids ',
         hobbies: ['biking', 'pool', 'magic']
     },
     {
