@@ -133,6 +133,14 @@ div{
     align-items: center;
     border: rgb(44, 151, 92) 2px dotted;
 }
+.Andy{
+    border:blue 4px dashed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(104, 198, 214);
+    color: rgb(81, 17, 230);
+    margin: 30px;
+    padding: 30px;
+}
 .Andy .hobbies{
     font-size: 1rem;
     font-weight: bold;
@@ -149,6 +157,14 @@ div{
     align-items: center;
     border: rgb(131, 112, 216) 2px dotted;
 }
+.Mary{
+    border:rgb(214, 97, 28) 4px dashed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(228, 180, 108);
+    color: rgb(121, 41, 9);
+    margin: 30px;
+    padding: 30px;
+}
 .Mary .hobbies{
     font-size: 1rem;
     font-weight: bold;
@@ -164,4 +180,12 @@ div{
     padding: 5px;
     align-items: center;
     border: rgb(31, 131, 27) 2px dotted;
+}
+.Bob{
+    border:rgb(4, 41, 4) 4px dashed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(189, 136, 196);
+    color: rgb(9, 2, 26);
+    margin: 30px;
+    padding: 30px;
 }
