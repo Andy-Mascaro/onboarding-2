@@ -15,18 +15,23 @@ const contain = document.querySelector('div');
 // console.log('Elements', selectEl, nameEl, ageEl, bioEl, hobbiesEl, container);
 
 selectEl.addEventListener('change', (e) => {
-    hobbiesEl.innerHTML = ' ';
-    contain.classList.remove('Yovana', 'Andy', 'Bob', 'Mary');
+
     const selected = e.target.value;
+
+    hobbiesEl.innerHTML = ' ';
+    
+    contain.classList.remove('Yovana', 'Andy', 'Bob', 'Mary');
+   
     if (selected === 'one') {
         renderPerson(0);
-     if (selected === 'two') {
+    } if (selected === 'two') {
         renderPerson(1);
     } if (selected === 'three') {
         renderPerson(2);
     } if (selected === 'four') {
         renderPerson(3);
     }
+});
 
 function renderPerson(index) {
     contain.classList.add(`${people[index].name}`);
